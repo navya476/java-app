@@ -13,6 +13,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
+  group: 'sample'
 
 steps:
 - task: NuGetToolInstaller@0
@@ -32,3 +33,5 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
+- bash: echo $(group.TestKey)
