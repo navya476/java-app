@@ -34,4 +34,4 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- bash: echo $(group.TestKey)
+- bash: echo $(TestKey)
