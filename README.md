@@ -1,1 +1,2 @@
 # SampleDotNet
+Just a sample
