@@ -12,6 +12,7 @@ alter table users
   add constraint USER_PK primary key (USERNAME);
 
 -- Create table
+-- Added a new feature
 create table user_roles
 (
   ROLE_ID   VARCHAR(50) not null,
